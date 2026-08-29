@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="24dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="EcoControl"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="8dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Sistema de control y monitoreo de contaminación industrial"
+            android:textSize="16sp"
+            android:gravity="center"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="30dp" />
+
+        <Button
+            android:id="@+id/btnEmpresas"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Empresas"
+            android:layout_marginBottom="12dp" />
+
+        <Button
+            android:id="@+id/btnFuentes"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Fuentes de contaminación"
+            android:layout_marginBottom="12dp" />
+
+        <Button
+            android:id="@+id/btnMediciones"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Mediciones"
+            android:layout_marginBottom="12dp" />
+
+        <Button
+            android:id="@+id/btnAlertas"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Alertas"
+            android:layout_marginBottom="12dp" />
+
+        <Button
+            android:id="@+id/btnReportes"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Reportes"
+            android:layout_marginBottom="12dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="EcoControl - Aplicación móvil"
+            android:textSize="14sp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="20dp" />
+
+    </LinearLayout>
+
+</ScrollView>

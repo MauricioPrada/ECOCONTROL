@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="24dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="24dp"
+            android:text="Reportes EcoControl"
+            android:textSize="26sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Resumen del sistema"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="16dp" />
+
+        <TextView
+            android:id="@+id/tvReporteEmpresas"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Empresas registradas: 0"
+            android:textSize="17sp"
+            android:layout_marginBottom="12dp" />
+
+        <TextView
+            android:id="@+id/tvReporteFuentes"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Fuentes registradas: 0"
+            android:textSize="17sp"
+            android:layout_marginBottom="12dp" />
+
+        <TextView
+            android:id="@+id/tvReporteMediciones"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Mediciones registradas: 0"
+            android:textSize="17sp"
+            android:layout_marginBottom="12dp" />
+
+        <TextView
+            android:id="@+id/tvReporteAlertas"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Alertas registradas: 0"
+            android:textSize="17sp"
+            android:layout_marginBottom="24dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Estado general"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="10dp" />
+
+        <TextView
+            android:id="@+id/tvEstadoGeneral"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Sistema EcoControl operativo."
+            android:textSize="16sp"
+            android:layout_marginBottom="24dp" />
+
+        <Button
+            android:id="@+id/btnActualizarReporte"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Actualizar reporte" />
+
+        <Button
+            android:id="@+id/btnVolver"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="Volver al inicio" />
+
+    </LinearLayout>
+
+</ScrollView>
